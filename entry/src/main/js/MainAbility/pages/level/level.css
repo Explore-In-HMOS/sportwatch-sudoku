@@ -1,0 +1,38 @@
+.container {
+    width: 454px; height: 454px;
+    flex-direction: column; align-items: center; justify-content: center;
+    background-color: #F5F5F0;
+}
+
+.logo-title {
+    font-size: 50px;
+    color: #212121;
+    font-weight: bold;
+}
+
+.logo-subtitle {
+    font-size: 26px;
+    color: #8A8880;
+    margin-bottom: 40px;
+}
+
+.btn {
+    width: 200px; height: 40px;
+    margin: 12px; border-radius: 32px;
+    font-size: 24px; font-weight: bold;
+}
+
+.easy {
+    background-color: #34A853;
+    color: #FFFFFF;
+}
+
+.medium {
+    background-color: #F57C00;
+    color: #FFFFFF;
+}
+
+.hard {
+    background-color: #E53935;
+    color: #FFFFFF;
+}

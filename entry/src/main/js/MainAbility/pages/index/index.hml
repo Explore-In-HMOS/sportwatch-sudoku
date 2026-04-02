@@ -1,0 +1,34 @@
+<div class="container" shape="circle">
+    <stack class="game-stack">
+        <div class="board-layer" style="opacity: {{ isWon ? 0.3 : 1.0 }};">
+            <text class="difficultyText">{{ difficultyName }}</text>
+            <text class="timerText">{{ timeText }}</text>
+            <div class="sudoku-grid">
+                <div for="{{board}}" class="cell" onclick="handleTap($idx)"
+                     style="background-color: {{ $item.isError ? '#FFDDD9' : ($item.isFixed ? '#F0F0EB' : '#FFFFFF') }};">
+                    <text class="cell-text"
+                          style="color: {{ $item.isError ? '#E53935' : ($item.isFixed ? '#1A1A1A' : '#1A73E8') }};">
+                        {{ $item.value === 0 ? '' : $item.value }}
+                    </text>
+                </div>
+            </div>
+        </div>
+
+        <div class="actions-layer" style="opacity: {{ isWon ? 0.3 : 1.0 }};">
+            <input type="button" class="act-btn b-clear" value="Clear" onclick="clearSudoku"></input>
+        </div>
+
+        <div class="victory-layer" show="{{ isWon }}">
+            <div class="victory-card">
+                <div class="container2">
+                    <image src="common/images/medal.png" style="width: 70px; height: 70px;"></image>
+                </div>
+                <text class="congs-text">CONGS!</text>
+                <text class="result-diff">{{ difficultyName }}</text>
+                <text class="result-time">{{ timeText }}</text>
+                <input type="button" class="pop-btn-blue" value="PLAY AGAIN" onclick="startNewGame"></input>
+                <input type="button" class="pop-btn-orange" value="MENU" onclick="finishSudoku"></input>
+            </div>
+        </div>
+    </stack>
+</div>

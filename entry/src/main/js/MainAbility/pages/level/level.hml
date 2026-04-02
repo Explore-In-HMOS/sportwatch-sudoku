@@ -1,0 +1,8 @@
+<div class="container">
+    <text class="logo-title">SUDOKU</text>
+    <text class="logo-subtitle">6 x 6</text>
+
+    <input type="button" class="btn easy" value="EASY" onclick="launch(1)"></input>
+    <input type="button" class="btn medium" value="MEDIUM" onclick="launch(2)"></input>
+    <input type="button" class="btn hard" value="HARD" onclick="launch(3)"></input>
+</div>
