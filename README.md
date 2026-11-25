@@ -1,8 +1,8 @@
 > **Note:** To access all shared projects, get information about environment setup, and view other guides, please visit [Explore-In-HMOS Index](https://github.com/Explore-In-HMOS/hmos-index).
 
-# Sudoku LiteWearable
+# Sudoku SportWatch
 
-Sudoku LiteWearable is a touch-first, logic-based puzzle game built for HarmonyOS Lite wearable devices. The project features a 6x6 grid optimized for circular watch screens, offering a smooth gameplay experience with real-time conflict detection and dynamic difficulty scaling.
+Sudoku SportWatch is a touch-first, logic-based puzzle game built for HarmonyOS SportWatch devices. The project features a 6x6 grid optimized for circular watch screens, offering a smooth gameplay experience with real-time conflict detection and dynamic difficulty scaling.
 # Preview
 
 <div>
@@ -79,5 +79,5 @@ Sudoku LiteWearable is a touch-first, logic-based puzzle game built for HarmonyO
 -Huawei Sport (Lite) Ultimate
 # LICENSE
 
-**Sudoku Lite Wearable** is distributed under the terms of the MIT License.
+**Sudoku SportWatch** is distributed under the terms of the MIT License.
 See the [LICENSE](/LICENSE) for more information.
